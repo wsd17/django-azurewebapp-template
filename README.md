@@ -20,5 +20,5 @@
  * [페이스북 페이지](http://facebook.com/askdjango)
  * [ask@festi.kr](mailto:ask@festi.kr)
 
-![AskDjango](readme/askdjango-allieus.png)
+[![AskDjango](readme/askdjango-allieus.png)](http://facebook.com/askdjango)
 
