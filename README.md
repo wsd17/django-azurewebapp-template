@@ -35,16 +35,12 @@
     * Publishing -> Deployment Source 에서 Sync 를 선택하면, 배포가 수행됨.
 
 
-## WebApp 에서 각종 management 명령 수행하기
+## WebApp 에서 관리자계정 생성 management 명령 실행하기
 
 https://myazureproject.scm.azurewebsites.net 를 통해 디버그 콘솔을 띄웁니다.
 
- * 관리자 계정 생성
-
     CMD> cd site\wwwroot
-
     CMD> env\Scripts\python manage.py shell --settings=myazureproject.settings.azure_webapp
-
     파이썬 쉘>  from django.contrib.auth import get_user_model
     파이썬 쉘> User = get_user_model()
     파이썬 쉘> User.objects.create_superuser('adminuesrname', 'adminemail@example.com', 'adminpassword')
