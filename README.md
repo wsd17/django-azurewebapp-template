@@ -2,7 +2,9 @@
 
 ### 프로젝트 생성
 
-    django-admin startproject --template=https://github.com/askdjango/django-azurewebapp-template/archive/master.zip myprojectname
+    django-admin startproject --extension config \
+        --template=https://github.com/askdjango/django-azurewebapp-template/archive/master.zip \
+        myprojectname
 
 
 ### Azure
