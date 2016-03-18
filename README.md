@@ -47,6 +47,13 @@ https://myazureproject.scm.azurewebsites.net 를 통해 디버그 콘솔을 띄�
     파이썬 쉘> exit()
 
 
+# 향후 시도해볼 것들
+
+ * `Azure Storage` 에 업로드되는 파일들 저장하기
+ * `Azure MySQL Database`
+ * `Azure RedisCache` 에 캐싱하기
+
+
 # 유용한 azure-cli 커맨드
 
     azure login
