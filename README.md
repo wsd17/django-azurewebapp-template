@@ -20,7 +20,7 @@
 ## 프로젝트 생성
 
     쉘> django-admin startproject --extension config \
-        --template=https://github.com/askdjango/django-azurewebapp-template/archive/master.zip \
+        --template https://github.com/askdjango/django-azurewebapp-template/archive/master.zip \
         myproject
 
     쉘> cd myproject
@@ -76,6 +76,8 @@ https://myazureproject.scm.azurewebsites.net 를 통해 디버그 콘솔을 띄�
  * [페이스북 그룹](http://facebook.com/groups/askdjango) : Django 에 대한 궁금증을 풀어가세요. ;)
  * [페이스북 페이지](http://facebook.com/askdjango)
  * [ask@festi.kr](mailto:ask@festi.kr)
+ * [장고 오프라인 강의 듣기](http://ask.festi.kr/p/1616)
+ * [파이썬 오프라인 강의 듣기](http://ask.festi.kr/p/1987)
 
 [![AskDjango](readme/askdjango-allieus.png)](http://facebook.com/askdjango)
 
