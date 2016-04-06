@@ -26,6 +26,8 @@
     쉘> cd myproject
     쉘> python manage.py migrate
 
+참고 : django-admin 을 수행하는 django 버전이 낮다면 (1.9.1 이하), 위 생성된 프로젝트에서 `manage.py-tpl` 과 같이 `-tpl` 파일이 생성될 수 있습니다. 이때 django 버전을 올리시고 다시 startproject 를 수행해주세요.
+
 
 ## 배포
 
